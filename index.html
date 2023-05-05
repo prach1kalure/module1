@@ -4,91 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+    <title>Module test</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./index.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="body">
-    <nav class="n">
-        <button style="padding:10px 170px ;">Museo Sans</button>
-        <button >Contact </button>
-    </nav>
-    <nav class="m">
-        <button>Company</button>
-        <button>Collections</button>
+<body>
+
+    <nav>
+       <div class="left_nav">
+        <span>Museo Sans</span>
+        <button class="a">Collections</button>
         <button>Menu</button>
-        <button>Events</button>
-        
-        <button class="b" >Contact </button>
+        <button class="b">Events</button>
+       </div>
+
+       <div class="right_nav">
+            <button>Contact</button>
+       </div>
     </nav>
 
-    <section class="content">
-        <div class="left">
-            <button>LOREMIPSUM</button>
-            <h2>Loreum Ipsum Heading</h2>
-            <img src="./1.png" alt="" >
-            <h4>Get Started</h4>
-            <span class="material-icons">arrow_forward</span>
-        </div>
-        <div class="right">
-            <div class="top">
-                <div><button>LOREMIPSUM</button>
-                    <h2>Loreum Ipsum Heading</h2>
-                    <p style="width:70%">Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text</p>
-                    <h4>Get Started</h4>
-                    
-                 </div>
-                 <div><img src="./2.png" alt="" style="width: 350px; height: 250px;"></div>
+    <div class="container-fluid">
+        
+            <div class="col col1">
+             <span>LOREMIPSUM</span>
+             <h3>Lorem Ipsum Heading</h3>
+             <img src="./left.png" alt="">
+             <div class="footer">
+                <p>Get Started</p>
+                <i class="fa-solid fa-arrow-right" style="color: #000000;"></i>
+             </div>
+             
             </div>
 
-                   
-            
+            <div class="col">
+               <div class="container">
+                 <div class="row">
+                    <div class="col col2">
+                        <div>
+                        <span>LOREMIPSUM</span>
+                        <h3>Lorem Ipsum Heading</h3>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text </p>
+                        <div class="footer">
+                            <p>Get Started</p>
+                            <i class="fa-solid fa-arrow-right" style="color: #000000;"></i>
+                         </div>
+                        
+                    </div>
 
-            <div class="bottom">
-                <div class="A"> 
-                    <img src="./3.png" alt="">
-                    <h1 style="border-bottom:2px solid #333333 ; margin-top: 50px;">Portrait</h1>
-                    <p style="width:75%">Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                    </p>
-                    
-                    <h4 style="margin-top:140px; ;">Get Started</h4>
-                    <span class="material-icons">arrow_forward</span>
-                </div>
-                <div class="B">
-                    <img src="./image 1.png" alt="" style="margin-left:60%; margin-top: 10%; padding: 0;">
-                    <button style="margin-top:35px;">LOREMIPSUM</button>
-                    <h1 style="border-bottom:2px solid #333333 ;">Portrait</h1>
-                    <p style="width:75%">Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                        Loreum Ipsum Text Loreum Ipsum Text
-                    </p>
-                    
-                    <h4>Get Started</h4>
-                    <span class="material-icons">arrow_forward</span>
-                </div>
+                        <div><img src="./r1.png" alt=""></div> 
+                             
+                    </div>
+                 </div>
+                 <div class="row3">
+                     <div class="col col3">
+                        <img src="./r2.png" alt="">
+                        <h1>Portrait</h1>  
+                        <p>Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text  </p>
+                        <div class="footer">
+                            <p>Get Started</p>
+                            <i class="fa-solid fa-arrow-right" style="color: #000000;"></i>
+                         </div>
+                     </div>
+                     <div class="col col4">
+                        <span>LOREMIPSUM</span>
+                        <img src="./r3.png" alt="">
+                        <h1>Portrait</h1>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text
+                            Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <div class="footer">
+                            <p>Get Started</p>
+                            <p> <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></p>
+                         </div>
+                    </div>
+                 </div>
+               </div>
             </div>
         
-    </section>
+    </div>
+
+
+
+
 </body>
 </html>
